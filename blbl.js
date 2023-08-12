@@ -5,14 +5,14 @@
 > 解锁说明：解锁VIP番剧和影视
 > 更新时间：2023-08-11
 > 问题反馈：群里@我
-> 特别提醒：此版本由伟人出去玩了，群友@此事多次贡献的账号。
+> 特别提醒：此版本由伟人出去玩了，群友@三年义务教育贡献的账号。
 > 特别说明：
           本脚本仅内部群专用，请勿外传，谢谢
 
 
 [rewrite_local]
   
-^http[s]?:\/\/((app|api)\.(\w{2,15})?\.(com|cn)).*player\.(v3|v2|v1).Play(URL|View).*$ url script-request-header https://raw.githubusercontent.com/Dawnaaaa/Qx/main/blbl.js
+^http[s]?:\/\/((app|api)\.(\w{2,15})?\.(com|cn)).*player\.(v3|v2|v1).Play(URL|View).*$ url script-request-header https://raw.githubusercontent.com/Dawnaaaa/QXJS/main/blbl.js
 
 
 [mitm] 
